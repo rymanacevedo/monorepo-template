@@ -1,0 +1,17 @@
+{
+    "name": "monorepo-template",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "bun run build",
+      "dev": "bun run dev",
+      "test": "bun run test",
+      "typecheck": "bun run typecheck"
+    },
+    "workspaces": [
+      "packages/frontend",
+      "packages/backend",
+      "packages/db"
+    ]
+  }
+  
